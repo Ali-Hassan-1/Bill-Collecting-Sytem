@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Bill Collecting System](/relative/path/to/screenshot.png?raw=true "Bill collecting System")
+![Uploading Screenshot (47).png…]()
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
