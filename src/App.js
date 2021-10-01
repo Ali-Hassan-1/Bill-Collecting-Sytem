@@ -31,6 +31,7 @@ function App() {
     setHundred(0);
     setFiveHundred(0);
     setThousand(0);
+    setReturnPayment(0);
     setBtnInVisible(false);
   }, [data]);
 
@@ -162,7 +163,7 @@ function App() {
           </tbody>
         </table>
       </div>
-      <div style={{ position: "absolute", right: 350, top: 0, bottom: 0 }}>
+      <div className="animatePic">
         <BgAnimation />
       </div>
     </>

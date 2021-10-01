@@ -14,15 +14,25 @@
   width: 7rem;
 }
 
-/* .App button {
-  width: 5rem;
-  padding: .5rem;
-  border-radius: 20px;
-  outline: none;
-  border: 1px solid #000;
-  margin-top: .1rem;
+.animatePic {
+  position: absolute;
+  right: 20%;
+  top: 0;
+  bottom: 0;
+}
 
-} */
+@media screen and (max-width: 1150px) {
+  .animatePic {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .App {
+    padding: 1rem;
+    left: 0%;
+  }
+}
 
 .animate {
   transition: all 0.1s;
