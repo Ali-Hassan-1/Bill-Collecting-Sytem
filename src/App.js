@@ -82,6 +82,13 @@ function App() {
       return;
     }
 
+    if (cashGiven.toString().length > 9 || billAmount.toString().length > 9) {
+      setError(
+        "Given Cash & Bill Amount less than or equal to 10 digit & not equal to e"
+      );
+      return;
+    }
+
     if (billAmount && cashGiven) {
       let returnPayment = cashGiven - billAmount;
       setReturnPayment(returnPayment);
@@ -149,7 +156,7 @@ function App() {
           <tbody>
             <tr>
               <td>
-                <b># Of Notes</b>
+                <b>No. of Notes</b>
               </td>
               <td>{thousand}</td>
               <td>{fiveHundred}</td>
